@@ -1,0 +1,60 @@
+.bg_sobre,.bg_servicos {
+  position: relative;
+  width: 100%;
+  height: 322px;
+}
+
+.bg_sobre {
+  background: url(../img/bg-sobre.jpg) no-repeat center;
+}
+
+#contato {
+  background: url(../img/bg-contato.jpg) no-repeat center; 
+  background-position-y: 7em;
+  background-position-x: -3em;
+}
+
+.bg_servicos {
+  background: url(../img/bg-servicos.jpg) no-repeat center;
+  background-size: cover;
+  background-position-y: 4em;
+  background-position-x: 0em;
+}
+
+.valores {
+  margin-left: 600px;
+}
+
+.intro {
+  padding: 3em 0;
+}
+
+.intro h2, p {
+font-size: 25px;
+color: #484B4D;
+line-height: 30px;
+}
+
+
+.intro h2::after {
+  content: "";
+  display: block;
+  width: 55px;
+  height: 5px;
+  background-color: #FCD646;
+  border-radius: 15px;
+  margin: 3px auto 10px 0;
+}
+
+#img_bg {
+padding: 3em 0;
+}
+
+#portfolio{
+  background: url(../img/bg-portfolio.jpg) no-repeat center;
+
+  background-position-y: -0.1em;
+  background-position-x: 0em;
+}
+
+
